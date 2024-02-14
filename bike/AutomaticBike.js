@@ -1,5 +1,6 @@
 class AutomaticBike{
-    constructor(){
+    constructor(name){
+        this.name = name;
         this.speed = 0;
         this.gear = 0; 
         this.engineKey = false;
